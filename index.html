@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sockerkickslandet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="h1">Sockerkickslandet</h1>
+        <h4 class="h4">Godis för den goda smakens skull</h4>
+    </header>
+
+    <main>
+        <p class="intro-text">
+            Välkommen till Sockerkickslandet, en värld av sötsaker och läskande drycker! Här hittar du allt från klassiska godisfavoriter till spännande nya smaker. Oavsett om du är sugen på något sött eller törstig efter en uppfriskande dryck, så har vi något för dig. Utforska vårt sortiment och låt dig frestas av våra läckra erbjudanden!
+        </p>
+
+        <p class="disclaimer">
+            <strong class="obs">OBSERVERA</strong> <br>
+            Denna hemsida inte är helt klar än. Vissa funktioner och sidor kan fortfarande vara under utveckling. Vi arbetar ständigt på hemsidan för att ge dig den bästa upplevelsen. Tack för ditt tålamod och förståelse!
+        </p>
+
+        <!-- News Carousel -->
+        <h2 class="section-title">DET SENASTE</h2>
+        <div class="carousel-wrapper">
+            <button class="scroll-btn left">&lt;</button>
+            <div class="image-row">
+                <div class="product-group">
+                    <div class="product-images">
+                        <img src="./images/lask/pepsi-50cl.png" alt="Pepsi 50cl" onerror="this.src='https://via.placeholder.com/150x250?text=Nyhet'">
+                    </div>
+                    <p class="product-text">Pepsi 50cl</p>
+                </div>
+            </div>
+            <button class="scroll-btn right">&gt;</button>
+        </div>
+
+        <!-- Sortiment Navigation -->
+        <h2 class="section-title">SWEET SPOTS</h2>
+        <div class="btns">
+            <a href="./pages/dryck.html">DRYCK</a>
+            <a href="./pages/glass.html">GLASS</a>
+            <a href="./pages/godis.html">GODIS</a>
+            <a href="./pages/snacks.html">SNACKS</a>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-container">
+            <h2 class="section-title">Din nästa sockerkick<br>börjar här!</h2>
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4073.549471540988!2d15.08168982332963!3d58.395341096308705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465bd1c88b807601%3A0x901c68a6ddb0e1c5!2sSockerkickslandet!5e1!3m2!1sen!2sse!4v1773213784940!5m2!1sen!2sse"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=Vadstenagatan 1b, 596 33 Skänninge" target="_blank">
+                Vägbeskrivning
+            </a>
+        </div>
+    </main>
+
+    <footer class="recfooter">
+        <h4>© 2026 Sockerkickslandet. Alla rättigheter förbehållna.</h4>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

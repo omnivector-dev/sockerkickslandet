@@ -1,0 +1,11 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code Workspace Settings
+.vscode/
+
+# Local Environment & Secrets
+.env
+*.local
