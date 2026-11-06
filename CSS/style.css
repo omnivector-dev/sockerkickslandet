@@ -303,6 +303,7 @@ body {
 
 /* --- FOOTER --- */
 .recfooter {
+  position: relative; /* Acts as the anchor for absolute positioning */
   margin-top: auto;
   width: 100%;
   height: 120px;
@@ -311,6 +312,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Version text styling */
+.recfooter .version {
+  position: absolute;
+  bottom: 12px;        /* Adjust distance from the bottom edge */
+  right: 16px;         /* Adjust distance from the right edge */
+  font-size: 0.8rem;
+  color: var(--text-color, #ffffff); /* Adapts to your theme color, or falls back to white */
+  opacity: 0.6;        /* Gives it a subtle look */
 }
 
 /* --- GRID LAYOUT (For Kulglass) --- */
