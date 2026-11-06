@@ -1,5 +1,5 @@
 // version.js
-const SITE_VERSION = "0.1.5";
+const SITE_VERSION = "0.1.6"; // Update this version number as needed
 
 // Automatically update every element with the class "version" across the page
 document.addEventListener("DOMContentLoaded", () => {
