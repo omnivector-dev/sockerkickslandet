@@ -84,7 +84,14 @@ body {
   text-align: center;
   margin: 40px auto;
   max-width: 900px;
-  padding: 0 20px;
+
+  /* --- The Product Box Match --- */
+  background: rgba(0, 0, 0, 0.25); /* The exact semi-transparent dark background */
+  padding: 20px 30px; /* Matching padding, slightly wider on the sides for text */
+  border-radius: 16px; /* Matched corner rounding */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Matched subtle white border highlight */
+  
+  padding: 5 20px;
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px;
   line-height: 1.6;
 }
