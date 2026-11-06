@@ -1,5 +1,5 @@
 // version.js
-const SITE_VERSION = "0.1.9"; // Update this version number as needed
+const SITE_VERSION = "0.1.11"; // Update this version number as needed
 
 // Automatically update every element with the class "version" across the page
 document.addEventListener("DOMContentLoaded", () => {
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // open hours
-const openHours = "Mondag: Stängt" + '<br>' + "Tisdag - Torsdag: 10:00 - 17:00" + '<br>' + "Fredag - Lördag: 11:00 - 18:00" + '<br>' + "Söndag: Stängt";
+const openHours = '<strong>Öppettider:</strong> <br>' + "Mondag: Stängt" + '<br>' + "Tisdag - Torsdag: 10:00 - 17:00" + '<br>' + "Fredag - Lördag: 11:00 - 18:00" + '<br>' + "Söndag: Stängt";
 
 // Automatically update every element with the class "open-h" across the page
 document.addEventListener("DOMContentLoaded", () => {
