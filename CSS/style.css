@@ -413,6 +413,28 @@ body {
     height: 350px; 
   }
 
+  .intro-text {
+     /* --- The Product Box Match --- */
+  background: rgba(0, 0, 0, 0.25); /* The exact semi-transparent dark background */
+  padding: 20px 30px; /* Matching padding, slightly wider on the sides for text */
+  border-radius: 16px; /* Matched corner rounding */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Matched subtle white border highlight */
+  width: calc(100% -40px);
+  margin: 30px 20px;
+  box-sizing: border-box;
+  }
+
+  .disclaimer {
+ /* --- The Product Box Match --- */
+  background: rgba(0, 0, 0, 0.25); /* The exact semi-transparent dark background */
+  padding: 20px 30px; /* Matching padding, slightly wider on the sides for text */
+  border-radius: 16px; /* Matched corner rounding */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Matched subtle white border highlight */
+  width: calc(100% -40px);
+  margin: 0 20px;
+  box-sizing: border-box;
+  }
+
    /* --- MOBILE CSS GRID ADJUSTMENTS FOR KULGLASS --- */
   .grid-container {
     /* Changes columns on mobile to fit exactly two cards side-by-side perfectly! */
