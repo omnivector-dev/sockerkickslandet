@@ -266,6 +266,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 40px auto;
+  margin-bottom: 10px;
   width: 95%;            /* Spans wider across screen */
   max-width: 1200px;     /* Increased max limit from 800px */
 }
@@ -297,6 +298,33 @@ body {
 }
 
 .directions:hover {
+  background-color: #800080;
+  transform: scale(1.05);
+}
+
+/* --- REVIEW LINK --- */
+.review-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.review-link {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 18px 40px;
+  background-color: #c800ff;
+  color: var(--white);
+  text-decoration: none;
+  font-family: "Michroma", sans-serif;
+  font-size: 18px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+  transition: all 0.2s ease;
+}
+
+.review-link:hover {
   background-color: #800080;
   transform: scale(1.05);
 }
