@@ -345,7 +345,7 @@ body {
 /* Version text styling */
 .recfooter .version {
   position: absolute;
-  bottom: 12px;        /* Adjust distance from the bottom edge */
+  bottom: 33px;        /* Adjust distance from the bottom edge */
   right: 16px;         /* Adjust distance from the right edge */
   font-size: 0.8rem;
   color: var(--text-color, #ffffff); /* Adapts to your theme color, or falls back to white */
@@ -361,12 +361,22 @@ body {
   opacity: 0.6;        /* Gives it a subtle look */
 }
 
+.recfooter .powered {
+  position: absolute;
+  bottom: 12px;        /* Adjust distance from the bottom edge */
+  right: -65px;         /* Adjust distance from the right edge */
+  transform: translateX(-50%); /* Center the text */
+  font-size: 0.8rem;
+  color: var(--text-color, #ffffff); /* Adapts to your theme color, or falls back to white */
+  opacity: 0.6;        /* Gives it a subtle look */
+}
+
 .open-h {
   position: absolute;
   font-size : 20px;
   text-align: center;
   color: var(--white);
-  margin-top: -55px;
+  margin-top: 5px;
 
   padding: 5 20px;
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px;

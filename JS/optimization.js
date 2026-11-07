@@ -1,11 +1,22 @@
-// version.js
-const SITE_VERSION = "0.1.13"; // Update this version number as needed
+// version & powered by
+const SITE_VERSION = '<strong>v0.1.14</strong>'; // Update this version number as needed
 
 // Automatically update every element with the class "version" across the page
 document.addEventListener("DOMContentLoaded", () => {
   const versionElements = document.querySelectorAll(".version");
   versionElements.forEach(el => {
-    el.textContent = `v${SITE_VERSION}`;
+    el.innerHTML = SITE_VERSION;
+  });
+});
+
+// powered by
+const POWERED_BY = "Powered by OMNIVECTOR";
+
+// Automatically update every element with the class "powered" across the page
+document.addEventListener("DOMContentLoaded", () => {
+  const poweredElements = document.querySelectorAll(".powered");
+  poweredElements.forEach(el => {
+    el.textContent = POWERED_BY;
   });
 });
 
