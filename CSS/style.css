@@ -32,8 +32,35 @@ body {
   color: var(--primary-red);
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 23px;
+}
+
+.utveckling {
+  color: var(--primary-red);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+
+.back {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 30px 20px;
+}
+
+.back a {
+  font-family: 'Ethnocentric', 'Londrina Solid', sans-serif;
+  font-size: clamp(20px, 3vw, 40px);
+  text-decoration: none;
+  text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px, #000000 4px 4px 0px, #000000 5px 5px 0px;
+  color: #000000;
+  -webkit-text-stroke: 1px var(--primary-cyan);
 }
 
 /* --- HEADER & BRANDING --- */
@@ -116,6 +143,7 @@ body {
   line-height: 1.6; /* Slightly increased for easier reading inside a box */
 }
 
+/* --- SECTION TITLES --- */
 .section-title {
   font-size: clamp(32px, 5vw, 55px);
   font-family: 'Ethnocentric', 'Londrina Solid', sans-serif;
@@ -124,6 +152,12 @@ body {
   text-align: center; 
   margin: 60px 20px 30px;
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px, #000000 4px 4px 0px, #000000 5px 5px 0px;
+}
+
+.disabled-link {
+  pointer-events: none; /* Stops all mouse clicks & touch events */
+  opacity: 0.5;          /* Gives it a disabled/greyed-out look */
+  cursor: default;      /* Removes the hand pointer cursor */
 }
 
 /* --- CATEGORY BUTTONS --- */

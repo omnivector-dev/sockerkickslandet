@@ -1,5 +1,5 @@
 // version & powered by
-const SITE_VERSION = '<strong>v0.1.14</strong>'; // Update this version number as needed
+const SITE_VERSION = '<strong>v0.2</strong>'; // Update this version number as needed
 
 // Automatically update every element with the class "version" across the page
 document.addEventListener("DOMContentLoaded", () => {
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // open hours
-const openHours = '<strong>Öppettider:</strong> <br>' + "Mondag: Stängt" + '<br>' + "Tisdag - Torsdag: 10:00 - 17:00" + '<br>' + "Fredag - Lördag: 11:00 - 18:00" + '<br>' + "Söndag: Stängt";
+const openHours = '<strong>Öppettider:</strong> <br>' + "Mondag: Stängt" + '<br>' + "Tisdag - Torsdag: 11:00 - 17:00" + '<br>' + "Fredag - Lördag: 11:00 - 18:00" + '<br>' + "Söndag: Stängt";
 
 // Automatically update every element with the class "open-h" across the page
 document.addEventListener("DOMContentLoaded", () => {
