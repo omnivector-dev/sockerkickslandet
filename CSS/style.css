@@ -51,7 +51,7 @@ body {
   justify-content: left;
   flex-wrap: wrap;
   gap: 60px;
-  margin: 30px 20px;
+  margin: 30px 40px;
 }
 
 .back a {
@@ -61,6 +61,11 @@ body {
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px, #000000 4px 4px 0px, #000000 5px 5px 0px;
   color: #000000;
   -webkit-text-stroke: 1px var(--primary-cyan);
+}
+
+.back a:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
 }
 
 /* --- HEADER & BRANDING --- */
@@ -544,5 +549,13 @@ body {
   font-size: 0.75rem;
   color: var(--text-color, #ffffff); /* Adapts to your theme color, or falls back to white */
   opacity: 0.6;        /* Gives it a subtle look */
+  }
+
+  .open-h {
+  margin-bottom: 50px;
+  }
+
+  .back {
+    margin: 30px 20px;
   }
 }
