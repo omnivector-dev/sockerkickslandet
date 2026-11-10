@@ -21,11 +21,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+  background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b) no-repeat fixed;
   background-attachment: fixed;
   color: var(--white);
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
 .obs {
