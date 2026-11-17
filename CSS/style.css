@@ -166,6 +166,10 @@ body {
   cursor: default;      /* Removes the hand pointer cursor */
 }
 
+.limited-edition {
+  margin-bottom: 25px;
+}
+
 /* --- CATEGORY BUTTONS --- */
 .btns {
   display: flex;
@@ -267,6 +271,7 @@ body {
   text-align: center; 
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px;
   line-height: 1.4;
+  height: 48px; /* Force a uniform height so 3-line and 4-line items take up the exact same amount of space! */
 }
 
 .product-images img {         /* PREVENT IMAGE DRAGGING */
