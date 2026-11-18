@@ -131,7 +131,6 @@ body {
 
 .disclaimer {
   font-size: 16px;
-  font-family: 'Nunito', sans-serif;
   letter-spacing: 1.5px;
   color: var(--white); /* Swapped to white so it reads beautifully over the dark box, or use var(--primary-pink) if you want it to pop! */
   text-align: center;
@@ -157,6 +156,17 @@ body {
   color: var(--white);
   text-align: center; 
   margin: 60px 20px 30px;
+  text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px, #000000 4px 4px 0px, #000000 5px 5px 0px;
+}
+
+.kategori-text {
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: var(--white);
+  margin-top: -20px;
+  text-align: center; 
   text-shadow: #000000 1px 1px 0px, #000000 2px 2px 0px, #000000 3px 3px 0px, #000000 4px 4px 0px, #000000 5px 5px 0px;
 }
 
