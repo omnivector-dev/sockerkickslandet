@@ -1,3 +1,4 @@
+// Click to Drag
 document.addEventListener('DOMContentLoaded', () => {
     const carousels = document.querySelectorAll('.carousel-wrapper');
 
@@ -68,3 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+function showInfo(event) {
+    event.preventDefault();
+    alert("Den här sidan är inte färdig än. Vi jobbar på det!");
+}

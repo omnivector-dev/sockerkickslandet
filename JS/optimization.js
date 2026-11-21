@@ -1,5 +1,5 @@
 // version & powered by
-const SITE_VERSION = '<strong>v0.2.4</strong>'; // Update this version number as needed
+const SITE_VERSION = '<strong>v0.3</strong>'; // Update this version number as needed
 
 // Automatically update every element with the class "version" across the page
 document.addEventListener("DOMContentLoaded", () => {
